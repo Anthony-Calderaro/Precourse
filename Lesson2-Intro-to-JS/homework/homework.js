@@ -189,7 +189,8 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  let greeting = 'Hello ' + name + '!';
+  let greeting = `Hello ${name}!`
+  //'Hello ' + name + '!';
   return greeting;
 }
 
