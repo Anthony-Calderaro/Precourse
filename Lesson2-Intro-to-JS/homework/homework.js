@@ -173,7 +173,7 @@ function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  let newString = str + "!";
+  let newString = str + '!';
   return newString;
 }
 
@@ -181,7 +181,7 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  let newName = firstName + " " + lastName;
+  let newName = firstName + ' ' + lastName;
   return newName;
 }
 
