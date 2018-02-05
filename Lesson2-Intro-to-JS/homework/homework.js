@@ -5,19 +5,19 @@
 let newString = 'anything' ;
 
 //create a number variable, it an be any number
-let newNum = null ;
+let newNum = 4 ;
 
 //create a boolean variable
-let newBool = null ;
+let newBool = true ;
 
 //solve the following math problem
-let newSubtract = 10 - null === 5;
+let newSubtract = 10 - 5 === 5;
 
 //Solve the following math problem
-let newMultiply = 10 * null === 40 ;
+let newMultiply = 10 * 4 === 40 ;
 
 //Solve the following math problem:
-let newModulo = 21 % 5 === null ;
+let newModulo = 21 % 5 === 1 ;
 
 
 
