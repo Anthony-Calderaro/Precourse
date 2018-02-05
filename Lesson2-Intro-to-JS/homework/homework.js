@@ -159,7 +159,7 @@ function raiseToPower(num, exponent) {
 function roundNumber(num) {
   // round num and return it
   // code here
-  return num.roundNumber;
+  return Math.roundUp(num, 1);
 }
 
 function roundUp(num) {
@@ -189,7 +189,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  let greeting = 'Hello ' + name;
+  let greeting = 'Hello ' + name + '!';
   return greeting;
 }
 
@@ -199,13 +199,14 @@ function getGreeting(name) {
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
   // code here
-  return Math.getRectangleArea(length, width);
-}
-
+  let rectangleArea = length * width;
+  return rectangleArea;
+  
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  return Math.getTriangleArea(base, height);
+  let triArea = base * height;
+  return triArea;
 }
 
 // Do not modify code below this line.
